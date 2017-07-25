@@ -1,6 +1,6 @@
 {
   "name": "remote-tunnel",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
   "main": "index.js",
   "bin": {
@@ -10,6 +10,7 @@
   "scripts": {
     "build": "babel src -d lib",
     "build:watch": "babel -w src -d lib",
+    "prepare": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -23,9 +24,10 @@
     "minimist": "^1.2.0",
     "node-fetch": "^1.7.1"
   },
-  "repo": "jrop/remote-tunnel",
+  "repository": "jrop/remote-tunnel",
   "devDependencies": {
     "babel-cli": "^6.24.1",
     "babel-preset-env": "^1.6.0"
-  }
+  },
+  "files": ["index.js", "lib/**/*.js"]
 }
