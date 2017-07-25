@@ -20,5 +20,6 @@
     "lodash": "^4.17.4",
     "minimist": "^1.2.0",
     "node-fetch": "^1.7.1"
-  }
+  },
+  "repo": "jrop/remote-tunnel"
 }
