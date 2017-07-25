@@ -14,7 +14,7 @@ Start the remote-tunnel (RT) server on a public server of yours somewhere:
 
 ```txt
         [example.com]
-        /            \
+       /             \
   REST API        Socket Hub
 ```
 

@@ -68,6 +68,6 @@ Options:
 			l: 'local-port',
 		},
 	})
-	if (args.help || !args.host) return help()
-	expose(args.host || 'localhost', args['public-port'], args['local-port'])
+	if (args.help || !args.host) help()
+	else expose(args.host || 'localhost', args['public-port'], args['local-port'])
 }

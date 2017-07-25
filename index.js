@@ -1,4 +1,4 @@
-const client = require('./client')
-const server = require('./server')
+const client = require('./lib/client')
+const server = require('./lib/server')
 
 module.exports = {client, server}
