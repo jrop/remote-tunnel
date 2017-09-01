@@ -1,5 +1,7 @@
 # remote-tunnel
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/jrop/remote-tunnel.svg)](https://greenkeeper.io/)
+
 > Like ngrok, but not limited to HTTP(S) traffic!
 
 ## Installation
